@@ -22,7 +22,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-202.png"
+  - image: "images/helmets/product-202.png"
 ---
 
 Refined style with an urban Flip Visor flare, the Bern Berkley Bike Helmet w/ Flip Visor is just what you need to cruise the concrete with confidence. Gone are the days of bulky, bobblehead helmets!

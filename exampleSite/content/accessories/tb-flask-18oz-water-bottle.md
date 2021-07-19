@@ -21,7 +21,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-302.jpg"
+  - image: "images/accessories/product-302.jpg"
   - image: "images/products/product-302-2.jpg"
 ---
 

@@ -22,8 +22,8 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-204.png"
-  - image: "images/products/product-204-2.png"
+  - image: "images/helmets/product-204.png"
+  - image: "images/helmets/product-204-2.png"
 ---
 
 Simplicity can be hard to come by these days, but with the Bern Team Brighton Bike Helmet there’s nothin’ but a comfortable, protective lid with a solid EPS/ABS construction to get you where you need to go safely.

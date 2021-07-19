@@ -22,7 +22,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-303.jpg"
+  - image: "images/accessories/product-303.jpg"
 ---
 
 Everything is better with a twang of country, including the Treasurebike XL Sunglasses. With their anti-reflection, water-repellent and blue-light protective lenses and durable frames, the Treasurebike XL sunnies match your outfit from Keith Urban concerts to hikes up your favorite mountain.

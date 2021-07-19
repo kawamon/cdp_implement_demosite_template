@@ -21,7 +21,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-301.jpg"
+  - image: "images/accessories/product-301.jpg"
 ---
 
 Your boots deserve a nice place to rest when they’re not helping you slay pow. Stow them in the DaKine Boot Bag 30L, which features a zippered front pocket and removable shoulder strap.

@@ -22,7 +22,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-207.png"
+  - image: "images/helmets/product-207.png"
 ---
 
 Designed for aggressive riding and enduro racing, the POC Tectal Race SPIN Bike Helmet features POC s take on rotational impact protection, called SPIN. SPIN differs from “that other rotational impact system” by using inner pads that shear on impact instead of a floating liner. Complete with Aramid Bridge Technology, an adjustable fit and a polished Scandinavian design, the POC Tectal Race SPIN Bike Helmet is proof that POC is always working to improve your safety and comfort in the saddle.

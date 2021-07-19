@@ -22,7 +22,7 @@ type: "products"
 # product Images
 # first image will be shown in the product page
 images:
-  - image: "images/products/product-206.png"
+  - image: "images/helmets/product-206.png"
 ---
 
 A lightweight, breathable cycling helmet for all types of riding with the advanced protection of WaveCel technology.
