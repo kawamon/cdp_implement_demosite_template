@@ -33,8 +33,8 @@ disqusShortname = ""
 [menu]
 
   [[menu.main]]
-  name = "Bicycles"
-  URL = "bicycles"
+  name = "Products"
+  URL = "products"
   weight = 1
 
   [[menu.main]]
