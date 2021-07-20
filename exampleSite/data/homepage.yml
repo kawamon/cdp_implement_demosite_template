@@ -34,29 +34,26 @@ A lightweight, breathable cycling helmet for all types of riding with the advanc
 ######################## raw material #######################
 material:
   enable : true
-  title : "Ingredients Of Our Products"
-  subtitle : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+  title : "Newsroom"
+  subtitle : "Latest newsroom of Treasure Bikes"
           dol."
   materialItem:
     # material item loop
-    - title : "Matcha Seeds"
+    - title : "An Overview Of The Latest “Ride Changing” Bike Technology
+"
       image : "images/material/material-1.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "Since the invention of the “safety bicycle” in 1885, there have been few times in history that have seen the types of monumental advances in road bike technology as we have seen in the past few years. The changes might not be quite as monumental as the advent of steering, gears and pneumatic tires in […]"
       
     # material item loop
-    - title : "Aloe Vera"
+    - title : "Beginner’s Guide to Mountain Biking"
       image : "images/material/material-2.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "“Eat before you’re hungry; drink before you’re thirsty.” These are two suggestions most bikers have heard, and if they’ve ridden very much they value them for their simplicity and truth. Wait too long to replenish your body and you’ll be dragging till the carbs and liquids kick in. But a third similarly simple and truthful […]"
       
     # material item loop
-    - title : "Turmeric"
+    - title : "Best Mountain Bikes 2019"
       image : "images/material/material-3.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
+      content : "What’s New in Mountain Bike Design With the widespread adoption of dropper posts, better suspension, and geometry that favors longer front ends and tighter rear ends, it’s now possible to shred pretty hard on bikes with less travel. Bikes like the Kona Process, Evil Offering, and more recently, Giant Trance have less than 120mm of […]"
       
-    # material item loop
-    - title : "Tulshi leaf"
-      image : "images/material/material-4.png"
-      content : "Lorem ipsum dolor sit amet,be consetetur sadipscing elitr, sed diam nonumy eirmod tem"
 
 ########################### Advantage #########################
 advantage:
