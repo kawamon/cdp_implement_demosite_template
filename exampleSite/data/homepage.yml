@@ -2,7 +2,7 @@
 banner:
   enable : true
   title : "Ride Bikes, Feel Good."
-  content : "Treasure Bike is a DUMMY EC Site for Trasure Academy"
+  content : "Treasure Bike is a DUMMY EC Site for Treasure Academy"
   image : "images/banner.png"
   # button
   button:
