@@ -58,26 +58,16 @@ material:
 advantage:
   enable : true
   title : "Advantages Of Using <br> Our Product"
-  subtitle : "Lorem ipsum dolor sit amet, da decal consetetur<br> sadipscing elitr, sed diam nonumya eirmod"
-  image : "images/advantage.png"
+  subtitle : "Treasure bikes provides high quality and low cost products"
+  image : "images/advantage.jpg"
   advantageList:
     # advantage list loop
     - listItem : "Extremely lightweight"
     - listItem : "Excellent breathability"
-    - listItem : "Can increase Cell activation"
-    - listItem : "Glowing Skin In 7 Days"
-    - listItem : "Increasing Glow Of Face"
-    - listItem : "More Beautiful Face Skin"
-
-
-######################## Promo Video ##########################
-video:
-  enable : true
-  title : "How To Use This Product?"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et."
-  videoThumb : "images/video-thumb.jpg"
-  videoURL : "https://www.youtube.com/embed/wf4F2-9UXUo"
+    - listItem : "Excellent durability"
+    - listItem : "High quality"
+    - listItem : "Won many awards"
+    - listItem : "日本語でも提供"
 
 
 ######################## Products #############################
