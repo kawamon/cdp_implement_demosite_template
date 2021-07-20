@@ -36,7 +36,6 @@ material:
   enable : true
   title : "Newsroom"
   subtitle : "Latest newsroom of Treasure Bikes"
-          dol."
   materialItem:
     # material item loop
     - title : "An Overview Of The Latest 'Ride Changing' Bike Technology
