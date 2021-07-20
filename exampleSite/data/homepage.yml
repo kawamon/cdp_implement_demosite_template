@@ -23,8 +23,9 @@ about:
 ###################### Call to action ########################
 cta:
   enable : true
-  title : "Buy one Get One Free Taba Cream"
-  content : "Available for limited time only. Grab one while you still can!"
+  title : "New Arrivals"
+  content : "TreasureBike Mens Mountain Helmet
+A lightweight, breathable cycling helmet for all types of riding with the advanced protection of WaveCel technology."
   image : "images/cta.png"
   overlayImage : "images/cta-overlay.png"
   button:
