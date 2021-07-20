@@ -14,10 +14,9 @@ banner:
 about:
   enable : true
   title : "About Our Product"
-  content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-          clita kasd gubergren,"
-  image : "images/about.png"
+  content : "Treasure Bike is a sample e-commerce site for training.
+日本語も表示できます。"
+  image : "images/about.jpg"
 
 
 ###################### Call to action ########################
