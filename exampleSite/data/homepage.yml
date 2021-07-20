@@ -86,26 +86,26 @@ testimonial:
     - name : "Angelo Perara"
       image : "images/clients/client-1.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      content : "Treasure Bike is a great product! <br> I recommend it to everyone."
       rating : "five" # rating star, one to five
       
     # testimonial item loop
     - name : "Riya Ventila"
       image : "images/clients/client-2.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
-      rating : "three" # rating star, one to five
+      content : "Treasure Bike is a great product! <br> I recommend it to everyone."
+      rating : "five" # rating star, one to five
       
     # testimonial item loop
     - name : "john Doe"
       image : "images/clients/client-3.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      content : "Treasure Bike is a great product! <br> I recommend it to everyone."
       rating : "five" # rating star, one to five
       
     # testimonial item loop
     - name : "Riya Ventila"
       image : "images/clients/client-2.jpg" # size 100px*100px
       designation : "CEO, Dialogue Broad Band"
-      content : "Lorem ipsum dolor sit amet, <br> consetetur sadipscing elitr, diam <br> nonumy eirmod tempor"
+      content : "Treasure Bike is a great product! <br> I recommend it to everyone."
       rating : "four" # rating star, one to five
