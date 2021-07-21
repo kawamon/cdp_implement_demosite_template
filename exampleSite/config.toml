@@ -106,7 +106,7 @@ snipcartApiKey = "NmVhYzg0ZmMtN2E2Yi00Mzg0LTk2NmQtN2UxYmRlMWNiOWNhNjM3NjA2OTQyOD
 currencySymbol = "$"
 
 # Profile-API
-ProfileApiToken = "05383240-8670-4a1c-b530-34c6be2c4ae3"
+profileApiToken = "05383240-8670-4a1c-b530-34c6be2c4ae3"
 
   # Preloader
   [params.preloader]
@@ -147,5 +147,5 @@ ProfileApiToken = "05383240-8670-4a1c-b530-34c6be2c4ae3"
   formAction = "#" # contact form works with formspree.io
 
   # Profile-API Form
-  [params.paip]
+  [params.papi]
   formAction = "#" 
