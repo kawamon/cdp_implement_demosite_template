@@ -8,13 +8,83 @@
     <div class="row">
       <div class="col-lg-4">
         <h3 class="
-        mb-4">Contact us</h3>
+        mb-4">Profile API sample</h3>
         <form action="{{ site.Params.papi.formAction }}" method="POST">
           <input type="text" class="form-control mb-2" id="client_id_input" name="td_client_id" placeholder="Enter Client ID">
           <input type="password" class="form-control mb-2" id="token_input" name="token" placeholder="Password">
           <button type="button" class="btn btn-block btn-outline-primary rounded">Fetch</button>
         </form>
       </div>
+      <div class="highlight" id="resultArea"></div>
+  <script>
+    var fetch_segment_func = function(clientId, token) {
+      var td = new Treasure({
+        host: 'in.treasuredata.com',
+        writeKey: '',
+        database: 'pageviews'
+      });
+
+      var successCallback = function(callbackResults) {
+        var resultMsg  = '<h1>Result</h1>';
+
+        callbackResults.forEach(function(callbackResult) {
+          resultMsg     += '<h2>Key</h2>';
+          resultMsg     += '<ul>';
+          Object.keys(callbackResult.key).forEach(function(key) {
+            resultMsg += '<li>' + key + '</li>';
+          });
+          resultMsg     += '</ul>';
+
+          resultMsg     += '<h2>Segments</h2>';
+          if(callbackResult.values.length <= 0) {
+            resultMsg += '<span>No segments</span>';
+          } else {
+            resultMsg     += '<ul>';
+            callbackResult.values.forEach(function(value) {
+              resultMsg += ('<li>' + value + '</li>');
+            });
+            resultMsg     += '</ul>';
+          }
+
+          resultMsg     += '<h3>Attributes</h3>';
+          if(callbackResult.attributes.length <= 0) {
+            resultMsg += '<span>No attributes</span>';
+          } else {
+            resultMsg += '<ul>';
+            Object.keys(callbackResult.attributes).forEach(function(key) {
+              resultMsg += ('<li>' + key + ' = ' + callbackResult.attributes[key] + '</li>');
+            });
+            resultMsg += '</ul>';
+          }
+        });
+
+        var resultArea = document.getElementById('resultArea');
+        resultArea.innerHTML = resultMsg;
+      }
+
+      var errorCallback = function(error) {
+        console.log(error);
+        resultArea.innerHTML = error;
+      }
+
+      //var token = '1e6becb7-7e75-4778-9f76-9db6af9fc638';
+      //var token = 'c852b31e-a62d-419e-8bda-67eeccdda747';	//TK
+      var token = '05383240-8670-4a1c-b530-34c6be2c4ae3'; //TK Realtime Demo Profile API Token
+console.log("clientId = " + clientId)
+console.log("token = " +token)
+      td.fetchUserSegments({
+        audienceToken: [token],
+        keys: {td_client_id: clientId}
+      }, successCallback, errorCallback);
+    }
+
+    document.getElementById('fetch_segment_button').onclick = function() {
+      var clientId = document.getElementById('client_id_input').value;
+      var token    = document.getElementById('token_input').value;
+      fetch_segment_func(clientId, token);
+    };
+  </script>
+
     </div>
   </div>
 </section>
