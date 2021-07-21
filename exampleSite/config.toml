@@ -52,6 +52,11 @@ disqusShortname = ""
   URL = "contact"
   weight = 5
 
+  [[menu.main]]
+  name = "P-API Test"
+  URL = "papi"
+  weight = 6
+
   ############# footer menu #############
   [[menu.footer]]
   name = "Products"
@@ -105,8 +110,6 @@ copyright = "| Copyright &copy; 2021 [Treasure Academy](https://academy.treasure
 snipcartApiKey = "NmVhYzg0ZmMtN2E2Yi00Mzg0LTk2NmQtN2UxYmRlMWNiOWNhNjM3NjA2OTQyODk2NTA4ODMz"
 currencySymbol = "$"
 
-# Profile-API
-profileApiToken = "05383240-8670-4a1c-b530-34c6be2c4ae3"
 
   # Preloader
   [params.preloader]
