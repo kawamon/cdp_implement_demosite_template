@@ -38,29 +38,19 @@ disqusShortname = ""
   weight = 1
 
   [[menu.main]]
-  name = "Helmets"
-  URL = "helmets"
-  weight = 2
-
-  [[menu.main]]
-  name = "Accessories"
-  URL = "accessories"
-  weight = 3
-
-  [[menu.main]]
   name = "Blog"
   URL = "blog"
-  weight = 4
+  weight = 3
 
   [[menu.main]]
   name = "FAQ"
   URL = "faq"
-  weight = 5
+  weight = 4
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 6
+  weight = 5
 
   ############# footer menu #############
   [[menu.footer]]
