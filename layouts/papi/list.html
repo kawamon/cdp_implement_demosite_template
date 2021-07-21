@@ -25,17 +25,17 @@
       });
 
       var successCallback = function(callbackResults) {
-        var resultMsg  = '<h2>Result</h2>';
+        var resultMsg  = '<h3>Result</h3>';
 
         callbackResults.forEach(function(callbackResult) {
-          resultMsg     += '<h3>Key</h3>';
+          resultMsg     += '<h4>Key</h4>';
           resultMsg     += '<ul>';
           Object.keys(callbackResult.key).forEach(function(key) {
             resultMsg += '<li>' + key + '</li>';
           });
           resultMsg     += '</ul>';
 
-          resultMsg     += '<h3>Segments</h3>';
+          resultMsg     += '<h4>Segments</h4>';
           if(callbackResult.values.length <= 0) {
             resultMsg += '<span>No segments</span>';
           } else {
