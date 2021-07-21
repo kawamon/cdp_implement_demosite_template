@@ -68,8 +68,10 @@
       }
 
       var token = '05383240-8670-4a1c-b530-34c6be2c4ae3'; //TK Realtime Demo Profile API Token
+      var token2 = {{ with site.Params.profileApiToken }};
 console.log("clientId = " + clientId)
 console.log("token = " +token)
+console.log("token2 = " +token2)
       td.fetchUserSegments({
         audienceToken: [token],
         keys: {td_client_id: clientId}
