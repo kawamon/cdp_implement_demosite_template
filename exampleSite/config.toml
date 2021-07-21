@@ -105,6 +105,9 @@ copyright = "| Copyright &copy; 2021 [Treasure Academy](https://academy.treasure
 snipcartApiKey = "NmVhYzg0ZmMtN2E2Yi00Mzg0LTk2NmQtN2UxYmRlMWNiOWNhNjM3NjA2OTQyODk2NTA4ODMz"
 currencySymbol = "$"
 
+# Profile-API
+apitoken = "1234567780"
+
   # Preloader
   [params.preloader]
   enable = true
@@ -142,3 +145,7 @@ currencySymbol = "$"
   # Contact Form
   [params.contact]
   formAction = "#" # contact form works with formspree.io
+
+  # Profile-API Form
+  [params.paip]
+  formAction = "#" 

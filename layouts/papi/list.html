@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+{{ if site.Data.papi.papi.enable }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <h3 class="
+        mb-4">Contact us</h3>
+        <form action="{{ site.Params.papi.formAction }}" method="POST">
+          <input type="text" class="form-control mb-2" id="client_id_input" name="td_client_id" placeholder="Enter Client ID">
+          <input type="password" class="form-control mb-2" id="token_input" name="token" placeholder="Password">
+          <button type="button" class="btn btn-block btn-outline-primary rounded">Fetch</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+
+{{ end }}
