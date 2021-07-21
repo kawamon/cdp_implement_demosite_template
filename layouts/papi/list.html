@@ -15,7 +15,9 @@
           <button type="button" class="btn btn-block btn-outline-primary rounded" id="fetch_segment_button">Fetch</button>
         </form>
       </div>
+
       <div class="highlight" id="resultArea"></div>
+	<hr>
   <script>
     var fetch_segment_func = function(clientId, token) {
       var td = new Treasure({
@@ -25,10 +27,10 @@
       });
 
       var successCallback = function(callbackResults) {
-        var resultMsg  = '<h1>Result</h1>';
+        var resultMsg  = '<h2>Result</h2>';
 
         callbackResults.forEach(function(callbackResult) {
-          resultMsg     += '<h2>Key</h2>';
+          resultMsg     += '<h3>Key</h3>';
           resultMsg     += '<ul>';
           Object.keys(callbackResult.key).forEach(function(key) {
             resultMsg += '<li>' + key + '</li>';
@@ -46,7 +48,7 @@
             resultMsg     += '</ul>';
           }
 
-          resultMsg     += '<h3>Attributes</h3>';
+          resultMsg     += '<h4>Attributes</h4>';
           if(callbackResult.attributes.length <= 0) {
             resultMsg += '<span>No attributes</span>';
           } else {
@@ -69,7 +71,9 @@
 
       //var token = '1e6becb7-7e75-4778-9f76-9db6af9fc638';
       //var token = 'c852b31e-a62d-419e-8bda-67eeccdda747';	//TK
-      var token = '05383240-8670-4a1c-b530-34c6be2c4ae3'; //TK Realtime Demo Profile API Token
+      //var token = '05383240-8670-4a1c-b530-34c6be2c4ae3'; //TK Realtime Demo Profile API Token
+      var token ="{{ with site.Params.ProfileApiToken }}"
+
 console.log("clientId = " + clientId)
 console.log("token = " +token)
       td.fetchUserSegments({
