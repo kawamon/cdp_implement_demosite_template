@@ -9,9 +9,11 @@
       <div class="col-lg-4">
         <h3 class="
         mb-4">Profile API sample</h3>
+        <p>Example: td_client_id = d5b94a74-1005-485a-ba0f-c67b6d12b6ee</p>
+        <p>Example: Profile API Token = ba06293e-fd7a-4c12-9125-038bcc80ab09</p>
         <form action="{{ site.Params.papi.formAction }}" method="POST">
           <input type="text" class="form-control mb-2" id="client_id_input" name="td_client_id" placeholder="Enter Client ID">
-          <input type="password" class="form-control mb-2" id="token_input" name="token" placeholder="Password">
+          <input type="text" class="form-control mb-2" id="token_input" name="token" placeholder="Enter Profile API Token">
           <button type="button" class="btn btn-block btn-outline-primary rounded" id="fetch_segment_button">Fetch</button>
         </form>
       </div>
@@ -67,7 +69,7 @@
         resultArea.innerHTML = error;
       }
 
-      if (token === undefined) {
+      if (token === '') {
           // default
           token = '05383240-8670-4a1c-b530-34c6be2c4ae3';
       } 
