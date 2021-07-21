@@ -14,7 +14,7 @@ priceBefore: "4188.00"
 shortDescription: "Does it go?—find out! Ride blindly down the next trail.."
 
 #product ID
-productID: "9"
+productID: "101"
 
 # type must be "products"
 type: "products"
