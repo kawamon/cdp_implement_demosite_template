@@ -3,8 +3,8 @@ contact:
   enable : true
   # office
   office:
-    title : "Central Office"
-    content : "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna"
+    title : "Treasure Bike Shop"
+    content : "Terasure Bikes is a example shop, so these information is a dummy."
     # other information comes from "config.toml"
 
   # opennig hour
