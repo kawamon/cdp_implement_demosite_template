@@ -19,8 +19,8 @@ Treasure Academy demo template is a sample retail demo site for training. This s
 ## Demo
 
 | Products  | FAQ  | Blog  | Contact  |  P-API Test |
-|---|---|---|---|
-| ![products]() | ![faq]() | ![blog](https://user-images.githubusercontent.com/439039/129135760-44ce6014-9fd8-40d5-8409-e287735fbdb5.png) | ![contact](https://user-images.githubusercontent.com/439039/129135802-3168051f-c30f-4634-b88c-ab998e914a39.png) | ![Profile API]) |
+|---|---|---|---|---|
+| ![products](https://user-images.githubusercontent.com/439039/129136060-e2b65b0e-e9a1-4565-b876-aef1d91d712f.png) | ![faq](https://user-images.githubusercontent.com/439039/129136033-d74e6c4c-2d6e-4869-b5b5-ecbed5e2ed0a.png) | ![blog](https://user-images.githubusercontent.com/439039/129135760-44ce6014-9fd8-40d5-8409-e287735fbdb5.png) | ![contact](https://user-images.githubusercontent.com/439039/129135802-3168051f-c30f-4634-b88c-ab998e914a39.png) | ![Profile API]() |
 
 
 ## Installation
