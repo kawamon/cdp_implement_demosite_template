@@ -1,6 +1,6 @@
 <div align="center">
-<h1><a href="https://gethugothemes.com/products/hargo/">Hargo</a></h1>
-<img src="https://user-images.githubusercontent.com/37659754/67154529-96242e00-f31f-11e9-9718-42382476e405.gif" alt="screenshot" width="100%">
+<h1><a href="https://github.com/kawamon/TDA_demo_template">Treasure Academy Demo Template</a></h1>
+<img src="https://github.com/kawamon/TDA_demo_template/tree/main/images/ezgif.com-gif-maker.gif" alt="screenshot" width="100%">
 </div>
 
 Treasure Academy demo template is a sample retail demo site for training. This sample is based on the OSS "Hargo" project. It is licenced by MIT licence.
@@ -18,30 +18,13 @@ Treasure Academy demo template is a sample retail demo site for training. This s
 
 ## Demo
 
-| Products  | FAQ  | Blog  | Contact  |
+| Products  | FAQ  | Blog  | Contact  |  P-API Test |
 |---|---|---|---|
-| ![products]() | ![faq]() | ![blog]() | ![contact]() |
+| ![products]() | ![faq]() | ![blog]() | ![contact]() | ![Profile API]() |
 
 
 ## Installation
 
-Navigate to your themes folder in your Hugo site and use the following commands:
-
-**Note : You must use `hugo-extended` version to compile SCSS**
-
-```
-$ mkdir themes
-$ cd themes
-#$ git clone git@github.com:kawamon/hargo.git
-```
-
 ## Main features
 
-- Bootstrap 4 Powered
-- Google Analytics
-- SEO Friendly
-- E-commerce Template
-- Contact Page , Faq Page
-- Responsive Ready
-- Snipcart Added
-
+Powered by Hargo (https://github.com/themefisher/hargo-hugo-ecommerce-theme)
