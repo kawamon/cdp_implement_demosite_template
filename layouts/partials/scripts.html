@@ -53,6 +53,7 @@ document.addEventListener('snipcart.ready', () => {
     console.log(cartConfirmResponse);
 
     var orderData = {};
+    orderData["name"] = cartConfirmResponse.billingAddress.name;
     orderData["email"] = cartConfirmResponse.email;
     orderData["paymentmethod"] = cartConfirmResponse.paymentDetails.method;
     orderData["invoice"] = cartConfirmResponse.invoiceNumber;
