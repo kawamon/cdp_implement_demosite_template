@@ -27,7 +27,7 @@ netlifyIdentity.on('logout', user => {
 
 document.addEventListener('snipcart.ready', () => {
   // You can safely use window.Snipcart here
-/* Commented by Treasure Academy */
+/* Commented by Treasure Academy 
   this.addItemEvent = window.Snipcart.events.on('item.added', (cartItem) => {
     console.log("cart.ready");
     console.log(cartItem);
@@ -45,9 +45,9 @@ document.addEventListener('snipcart.ready', () => {
     console.log(cartData);
     td.trackEvent('cart', cartData);
   });
-/**/
+*/
     
-/* Commented by Treasure Academy */
+/* Commented by Treasure Academy 
   this.addItemEvent = window.Snipcart.events.on('cart.confirmed', (cartConfirmResponse) => {
     console.log("cart.confirmed");
     console.log(cartConfirmResponse);
@@ -86,6 +86,6 @@ document.addEventListener('snipcart.ready', () => {
 
     td.trackEvent('order_details', orderDetails);
   });
-/**/
+*/
 });
 </script>
